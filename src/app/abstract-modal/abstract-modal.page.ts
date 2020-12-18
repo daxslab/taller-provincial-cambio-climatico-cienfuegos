@@ -10,7 +10,7 @@ import {Subscription} from 'rxjs';
 export class AbstractModalPage implements OnInit {
 
   conference;
-  private backbuttonSubscription: Subscription;
+  public backbuttonSubscription: Subscription;
 
   constructor(
       private modalController: ModalController,
@@ -22,7 +22,7 @@ export class AbstractModalPage implements OnInit {
   }
 
   @HostListener('document:ionBackButton', ['$event'])
-  private async overrideHardwareBackAction($event: any) {
+  public async overrideHardwareBackAction($event: any) {
     await this.modalController.dismiss();
   }
 

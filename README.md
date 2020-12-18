@@ -1,3 +1,3 @@
-# II Jornada Nacional de Soberanía tecnológica
+# Taller Provincial Cambio Climático Cienfuegos
 
-Aplicacion para el evento “II Jornada Nacional de Soberanía tecnológica desde la UIC” 
+Aplicación para el Taller Provincial "Apoyo al fortalecimiento de capacidades para el enfrentamiento al cambio climático en la ciudad de Cienfuegos"
